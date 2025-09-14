@@ -1,0 +1,212 @@
+:root{
+    --primary: #EDEDEC;
+    --secondary:#B61032;
+    --ternary:#F3F3F3;
+    --four:#F8F8F8;
+    --five:#17A6DA;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.section1{
+    background-color: #EDEDEC;
+    
+}
+
+
+
+/* ***************************************** */
+.headerSection{
+    background-color: var(--primary);
+  
+  
+    
+}
+.logoSavaari{
+  width: 90px;
+}
+.contactDetails{
+  font-size: 12px;
+}
+
+/* ******************************************************** */
+
+
+/*  *************************************/
+.headingMain{
+    font-weight: bolder;
+}
+.cabBooking,.pickUpDate{
+  font-size: 12px;
+}
+/* **************************************************************** */
+.carImage{
+    width: 80px;
+}
+
+.pickUpDate,.PickUpTime{
+    font-size: 12px;
+}
+
+.breadcrumb-item,.cabText{
+  font-size: 14px;
+}
+/* *********************************************************************************** */
+/* .card .cta-section .btn {
+  background-color: #696969;
+  border-color: #696969;
+  color: #fff;
+} */
+/* #pills-tab{
+  width: 415px;
+} */
+.inclusionIcon1,.inclusionIcon2,.exclusionIcon1,.exclusionIcon2,.AC{
+  width: 50px;
+}
+.InclusionsKMS{
+background-color: #F8F8F8
+
+}
+.InclusionPrice{
+  background-color: #F3F3F3;
+}
+
+/*  *****************styling filters*****************************************************/
+
+  
+.section-center {
+  width: 90%;
+  margin: 0 auto;
+
+  
+}
+
+
+
+  
+
+
+ 
+
+/* ***************************** */
+
+
+.section4 {
+
+  margin: 0 auto;
+
+  border-radius: 20px;
+  padding: 30px;
+
+}
+.carImage1{
+  width: 50px;
+  height: 50px;
+}
+.carType{
+  color: black;
+}
+.carType:hover{
+  color: #B61032;
+}
+
+.crystaImage{
+  width: 50px;
+}
+.imgSavaari{
+width: 50px;
+}
+
+
+.filter-btn {
+/* border: 1px solid black; */
+ 
+ 
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+width: 80px;
+height: 100px;
+  overflow: hidden;
+
+}
+
+.filter-btn:hover {
+  transform: translateY(-2px);
+  color: #B61032;
+  border-radius: 50%;
+
+}
+
+.filter-btn.active {
+ 
+  transform: scale(1.05);
+}
+
+
+
+.image-grid {
+  display: grid;
+ 
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.image-item {
+  position: relative;
+  border-radius:50px;
+  overflow: hidden;
+
+  transition: all 0.3s ease;
+
+}
+
+
+.image-item.hidden {
+  display: none;
+}
+
+.year,.distance,.GST{
+  font-size: 12px;
+}
+
+
+
+
+.image-info {
+
+  text-align: center;
+
+}
+
+.imgSavaari{
+  width: 80px;
+
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.image-count {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  /* color: #666; */
+}
+.dropdown-btn,.arrow{
+  font-size: 12px;
+}
+/* ***************************************************** */
+
